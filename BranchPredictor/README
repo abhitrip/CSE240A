@@ -1,0 +1,29 @@
+Branch Predictor Project
+----------------------------------------------------------------------
+
+Instructions:
+
+1) Find the source code in this tar file (directory src) and cd
+to that directory.
+
+2) Make the predictor (run make in your working source directory).
+
+3) Run the predictor
+(bunzip2 -c -k ../traces/DIST-INT-1.bz2 | ./predictor)
+where DIST-INT-1.bz is one of the trace files.
+./predictor reads (in a binary format) from STDIN a trace
+(decompressed with bzip2 on the fly). It outputs to STDOUT basic
+statistics about how well the predictor did.
+
+4) Create your own predictor.C file and predictor.h file (or modify
+the existing ones).  Be sure to read the long comment at the beginning
+of the provided predictor.h and follow it's directions.  Just make
+sure your predictor implements the three functions exactly as their
+specification reads (init_predictor, make_prediction, and
+train_predictor).  The only two files of yours you will turn in are
+predictor.h and predictor.C.  All other source files (and makefile)
+will remain the same.
+
+5) Submit your predictor.C and predictor.h files along with your
+report (details of this specified on the webpage).  Email them to
+Rajib (rknath@cs.ucsd.edu) with subject line: "CSE240A Project 1"
