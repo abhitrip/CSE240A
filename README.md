@@ -1,4 +1,6 @@
-# CSE240A
-UCSD computer architecture
-
-This contains the code for the branch predictor contest for Prof. Dean Tullsen's class
+# CSE240A<br/>
+UCSD computer architecture<br/>
+This contains the code for the projects given in CSE240A by Prof Dean Tullsen<br/>
+1.      Branch Prediction Contest
+2.      Cache Simulator 
+.
